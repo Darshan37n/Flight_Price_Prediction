@@ -108,21 +108,6 @@ flight-fare-prediction/
 - XGBoost
 - Pickle — Model saving
 
----
-
-## ▶️ How to Run
-
-```bash
-pip install -r requirements.txt
-jupyter notebook notebooks/FlightPricePrediction.ipynb
-```
-
-> Make sure `Flight_Fare.xlsx` is in the `data/` folder and update the path in the notebook:
-> ```python
-> df = pd.read_excel('../data/Flight_Fare.xlsx')
-> ```
-
----
 
 ## 📌 Key Takeaways
 
